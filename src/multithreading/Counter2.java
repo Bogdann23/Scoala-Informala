@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * @author Bogdan
  */
-public class Counter {
+public class Counter2 {
 
     //atomic counter object is created
     private final AtomicInteger c = new AtomicInteger();
@@ -20,5 +20,9 @@ public class Counter {
 
     public int getCount() {
         return c.get();
+    }
+
+    String value() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
