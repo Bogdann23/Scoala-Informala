@@ -13,7 +13,7 @@
         <title>Insert EBook</title>
     </head>
     <body>
-        <h1>Insert new EBook</h1><br>
+        <h1>InsertEBook</h1><br>
         <form action="${pageContext.request.contextPath}/insertebook" method="put">
             <table>
                 <tr><td>I.S.B.N.:</td><td><input type="text" name="inputform_newebook_ISBN"></input></td></tr>
